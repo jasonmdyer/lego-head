@@ -1,0 +1,153 @@
+html {
+    background: #D5EDFC;
+}
+
+.left-eye {
+    width: 80px;
+    height: 80px;
+    background: #06487A;
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    border-radius: 100%;
+}
+
+.left-eyebrow {
+    width: 250px;
+    height: 60px;
+    background: #06487A;
+    position: absolute;
+    top: -20px;
+    left: -85px;
+    border-radius: 5em;
+    transform:rotate(-10deg)
+}
+
+.left-lower-eyelid {
+    width: 150px;
+    height: 80px;
+    border-radius: 20em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 40px solid #06487A;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;    
+}
+
+/* RIGHT EYE */
+
+.right-eye {
+    width: 80px;
+    height: 80px;
+    background: #06487A;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    border-radius: 100%;
+}
+
+.right-eyebrow {
+    width: 250px;
+    height: 60px;
+    background: #06487A;
+    position: absolute;
+    top: -20px;
+    left: -85px;
+    border-radius: 5em;
+    transform:rotate(10deg)
+}
+
+.right-lower-eyelid {
+    width: 150px;
+    height: 80px;
+    border-radius: 20em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 40px solid #06487A;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%; 
+}
+
+/* LIP */
+
+.lip {
+    height: 150px;
+    width: 600px;
+    background: #D5EDFC;
+    border: 40px solid #06487A;
+    position: absolute;
+    top: 450px;
+    left: 460px;
+    border-radius: 20px 20px 150px 150px;
+}
+
+/* TEETH */
+
+.teeth {
+    height: 20px;
+    width: 625px;
+    background: #06487A;
+    border-radius: 20px;
+    position: absolute;
+    top: 575px;
+    left: 475px;
+}
+
+.teeth2 {
+    height: 200px;
+    width: 20px;
+    background: #06487A;
+    position: absolute;
+    top: -100px;
+    left: 110px;
+}
+
+.teeth3 {
+    height: 200px;
+    width: 20px;
+    background: #06487A;
+    position: absolute;
+    top: -100px;
+    left: 210px;
+}
+
+.teeth4 {
+    height: 200px;
+    width: 20px;
+    background: #06487A;
+    position: absolute;
+    top: -100px;
+    left: 310px;
+}
+
+.teeth5 {
+    height: 200px;
+    width: 20px;
+    background: #06487A;
+    position: absolute;
+    top: -100px;
+    left: 410px;
+}
+
+.teeth6 {
+    height: 200px;
+    width: 20px;
+    background: #06487A;
+    position: absolute;
+    top: -100px;
+    left: 510px;
+}
+
+/* HEAD */
+
+.head {
+    height: 800px;
+    width: 900px;
+    background: transparent;
+    border: 40px solid #06487A;
+    border-radius: 10%;
+    position: absolute;
+    left: 300px;
+}
